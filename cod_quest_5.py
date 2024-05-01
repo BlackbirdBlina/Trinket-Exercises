@@ -1,0 +1,6 @@
+numero_escolhido = int(float(input('Qual é o número inteiro que deve ser utilizado para gerar a sequência?')))
+numero1 = int(numero_escolhido - 2)
+numero2 = int(numero_escolhido - 1)
+numero3 = int(numero_escolhido + 1)
+numero4 = int(numero_escolhido + 2)
+print(f'A sequência é a seguinte: {numero1} {numero2} {numero_escolhido} {numero3} {numero4} {numero1 + numero2 + numero3 + numero_escolhido + numero4}')
